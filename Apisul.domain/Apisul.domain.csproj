@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\input.json" />
+    <Content Include="bin\Debug\netcoreapp2.2\Apisul.domain.deps.json" />
+    <Content Include="bin\Debug\netcoreapp2.2\win10-x64\Apisul.domain.deps.json" />
+    <Content Include="bin\Debug\netcoreapp2.2\win10-x64\publish\Apisul.domain.deps.json" />
+    <Content Include="bin\Release\netcoreapp2.2\Apisul.domain.deps.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\Apisul.domain.1.0.0.nupkg" />
+    <None Include="bin\Debug\netcoreapp2.2\Apisul.domain.dll" />
+    <None Include="bin\Debug\netcoreapp2.2\Apisul.domain.pdb" />
+    <None Include="bin\Debug\netcoreapp2.2\win10-x64\Apisul.domain.dll" />
+    <None Include="bin\Debug\netcoreapp2.2\win10-x64\Apisul.domain.pdb" />
+    <None Include="bin\Debug\netcoreapp2.2\win10-x64\publish\Apisul.domain.dll" />
+    <None Include="bin\Debug\netcoreapp2.2\win10-x64\publish\Apisul.domain.pdb" />
+    <None Include="bin\Debug\netcoreapp2.2\win10-x64\publish\Newtonsoft.Json.dll" />
+    <None Include="bin\Release\netcoreapp2.2\Apisul.domain.dll" />
+    <None Include="bin\Release\netcoreapp2.2\Apisul.domain.pdb" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+  </ItemGroup>
+
+</Project>
